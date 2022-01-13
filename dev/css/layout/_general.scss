@@ -23,6 +23,7 @@ img{
 .double{
     grid-area: d;
     flex-direction: row;
+    align-items: center;
 }
 article{
     display: flex;
