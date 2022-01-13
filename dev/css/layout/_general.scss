@@ -1,20 +1,25 @@
 body{
     background: #ffffff;
 }
+img{
+    max-width: 100%;
+}
 .wrapper{
     width: 1200px;
     margin: 0 auto;
+}
+.news-front{
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "l . ."
+    "l d d"
+    ;
+    gap: 24px;
 }
-.un{
-    background: green;
+.large{
+    grid-area: l;
 }
-.deux{
-    background: #003c80;
-}
-.trois{
-    background: #620080;
-}
-.quatre{
-    background: #ac3d3d;
+.double{
+    grid-area: d;
 }
