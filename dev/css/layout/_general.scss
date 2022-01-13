@@ -22,4 +22,9 @@ img{
 }
 .double{
     grid-area: d;
+    flex-direction: row;
+}
+article{
+    display: flex;
+    flex-direction: column;
 }
