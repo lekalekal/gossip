@@ -110,6 +110,7 @@ article{
 }
 
 .news-end{
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, calc(250px + 5vw));
