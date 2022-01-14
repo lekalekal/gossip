@@ -22,12 +22,13 @@ img{
     max-width: 100%;
 }
 .wrapper{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .news-front{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 40% repeat(2, 1fr);
+    grid-template-rows: calc(250px + 5vw) calc(120px + 5vw);
     grid-template-areas:
     "l . ."
     "l d d"
