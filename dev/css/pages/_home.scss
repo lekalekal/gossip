@@ -108,9 +108,16 @@ article{
     display: flex;
     flex-direction: column;
 }
-
+.sticky-inside{
+    position: sticky;
+    top: 0;
+}
+.news-sec{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 2%;
+}
 .news-second{
-    width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, calc(250px + 5vw));
