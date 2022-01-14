@@ -52,6 +52,9 @@
 .news-three article:nth-of-type(3) .news-img{
     background: url("../img/17-1068x797.jpg") center / cover;
 }
+.news-latest article .news-img{
+    background: url("../img/17-1068x797.jpg") center / cover;
+}
 
 img{
     max-width: 100%;
@@ -64,6 +67,12 @@ img{
     "l . ."
     "l d d"
     ;
+    gap: 2%;
+}
+.news-latest{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, calc(250px + 5vw));
     gap: 2%;
 }
 .img-link{
