@@ -16,31 +16,31 @@
     background: url("../img/26-1068x712.jpg") center / cover;
 }
 
-.news-end article:nth-of-type(1) .news-img{
+.news-second article:nth-of-type(1) .news-img{
     background: url("../img/27-1068x713.jpg") center / cover;
 }
-.news-end article:nth-of-type(2) .news-img{
+.news-second article:nth-of-type(2) .news-img{
     background: url("../img/35-1068x711.jpg") center / cover;
 }
-.news-end article:nth-of-type(3) .news-img{
+.news-second article:nth-of-type(3) .news-img{
     background: url("../img/40-1068x1602.jpg") center / cover;
 }
-.news-end article:nth-of-type(4) .news-img{
+.news-second article:nth-of-type(4) .news-img{
     background: url("../img/30-1068x647.jpg") center / cover;
 }
-.news-end article:nth-of-type(5) .news-img{
+.news-second article:nth-of-type(5) .news-img{
     background: url("../img/34-1068x713.jpg") center / cover;
 }
-.news-end article:nth-of-type(6) .news-img{
+.news-second article:nth-of-type(6) .news-img{
     background: url("../img/39-1068x712.jpg") center / cover;
 }
-.news-end article:nth-of-type(7) .news-img{
+.news-second article:nth-of-type(7) .news-img{
     background: url("../img/29-1068x712.jpg") center / cover;
 }
-.news-end article:nth-of-type(8) .news-img{
+.news-second article:nth-of-type(8) .news-img{
     background: url("../img/33-1068x712.jpg") center / cover;
 }
-.news-end article:nth-of-type(9) .news-img{
+.news-second article:nth-of-type(9) .news-img{
     background: url("../img/38-1068x711.jpg") center / cover;
 }
 .news-three article:nth-of-type(1) .news-img{
@@ -109,7 +109,7 @@ article{
     flex-direction: column;
 }
 
-.news-end{
+.news-second{
     width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -118,7 +118,7 @@ article{
     article{
         position: relative;
     }
-    .news-end-text{
+    .news-second-text{
         padding: calc(5px + .5vw);
         background: #ffffff;
         position: absolute;
@@ -204,4 +204,7 @@ margin-right: 2%;
     &:hover::before{
         color: #ffffff;
     }
+}
+.prev-and-next{
+    width: 100%;
 }
