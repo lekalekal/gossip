@@ -1,4 +1,7 @@
 .nav-top{
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
     .nav-inside{
         display: flex;
         width: 60%;
@@ -6,7 +9,7 @@
     }
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
-    font-size: calc(12px + 0.3vw);
+    font-size: calc(10px + 0.5vw);
     font-weight: bold;
     margin-bottom: 2%;
     a{
