@@ -1,0 +1,59 @@
+header{
+    
+    button{
+        width: 5%;
+    }
+    svg{
+        width: 180%;
+    }
+    .header-top{
+        display: grid;
+        grid-template-areas:
+        "logo today search article"
+        "logo banner banner article"
+        ;
+        justify-content: center;
+        gap: 2%;
+        padding: 2% 0;
+    }
+    .today-top{
+        grid-area: today;
+        width: 100%;
+        font-size: 12px;
+    }
+    .search-top{
+        grid-area: search;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    .search-top-input{
+    padding: 0 0 0 10px;
+    }
+    .banner-top{
+        grid-area: banner;
+    }
+    .article-top{
+        grid-area: article;
+    }
+}
+
+.logo{
+    align-self: center;
+    span:first-child{
+        font-size: calc(20px + 1vw);
+        font-weight: bold;
+    }
+    background: #ea1717;
+    a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    text-transform: uppercase;
+    grid-area: logo;
+    span{
+        padding: 2%;
+        text-align: center;
+        display: block;
+    }
+}

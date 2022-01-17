@@ -1,0 +1,57 @@
+footer{
+    background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 100%);
+}
+.contact-us-f{
+    grid-area: c;
+    padding-top: 4%;
+    padding-bottom: 2% !important;
+    span{
+        width: 15%;
+    }
+}
+.footer-inside{
+    padding: 2%;
+    padding-bottom: 4%;
+    display: grid;
+    grid-template-areas:
+    ". . . . ."
+    "c c c c c"
+    "logo soc soc soc fn"
+    ;
+    gap: 2%;
+    grid-template-columns: repeat(4, 1fr) 25%;
+    color: #ffffff;
+    font-size: calc(6px + 0.4vw);
+    h3{
+        text-transform: uppercase;
+    }
+    a{
+        color: #ffffff;
+        text-decoration: none;
+        display: block;
+        padding: 4% 0;
+    }
+    .stay-in-touch{
+        button{
+            background: #ea1717;
+            color: #ffffff;
+            border: none;
+            display: block;
+        }
+    }
+    .socials-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: soc;
+        a{
+            padding: 3%;
+            background: #20c3cc;
+            color: #ffffff;
+            margin: 1%;
+            &:hover{
+                background: #ea1717;
+            }
+        }
+    }
+}
